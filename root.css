@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+button{
+    background: none;
+    border: none;
+    outline: none;
+} 
+button:hover{
+    cursor: pointer;
+    background-color:brown;
+}
+.app{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board-row{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+}
+.board-row:last-child{
+    border-bottom: none;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    border-right: 2px solid black;
+}
+.square:last-child{
+    border-right: none;
+}
+.status-message {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    span {
+      font-weight: normal;
+    }
+  }
